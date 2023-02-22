@@ -35,6 +35,8 @@ public class Main {
         System.out.print(thirdArray[0] + " ");
         System.out.println(thirdArray[1]);
 //ex.4
-
+        Phone phone = new Phone(112, "Nokia", 100);
+        phone.showModel();
+        phone.callPhone();
     }
 }
